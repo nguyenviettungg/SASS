@@ -1,0 +1,18 @@
+{
+  "name": "learn-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "tungdeptrai",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "sass": "^1.35.2"
+  },
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
