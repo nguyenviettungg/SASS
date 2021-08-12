@@ -355,7 +355,7 @@ body {
     .card__picture--2 {
       background-image: linear-gradient(to right bottom, #318fdb, #0f28b3), url(../../img/nat-6.jpg); }
     .card__picture--3 {
-      background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url("https://github.com/nguyenviettungg/SASS/blob/master/img/nat-7.jpg"); }
+      background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url(../../img/nat-7.jpg); }
   .card__heading {
     font-size: 2.8rem;
     font-weight: 300;
@@ -676,12 +676,15 @@ body {
 .header {
   position: relative;
   height: 95vh;
-  background-image: linear-gradient(to right bottom, rgba(49, 143, 219, 0.658), rgba(15, 40, 179, 0.664)), url(../img/hero.jpg);
+  background-image: linear-gradient(to right bottom, rgba(49, 143, 219, 0.658), rgba(15, 40, 179, 0.664)), url(../img/hero-small.jpg);
   background-size: cover;
   background-position: top;
   border-radius: 20px 20px 0 0;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%); }
+  @media (min-resolution: 192dpi) and (min-width: 37.5em), (min-width: 125em) {
+    .header {
+      background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.658), rgba(255, 119, 48, 0.664)), url(../img/hero.jpg); } }
   @media (max-width: 37.5em) {
     .header {
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%);
