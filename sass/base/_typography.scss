@@ -23,7 +23,7 @@ body {
     animation-timing-function: ease-out;
 
     @include respond(tab-port) {
-      letter-spacing: 1rem; 
+      letter-spacing: 1rem;
       font-size: 5rem;
     }
     @include respond(phone) {
